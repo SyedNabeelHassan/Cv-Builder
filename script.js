@@ -1,5 +1,5 @@
 function generatePreview() {
-    // Get form values
+    
     const name = document.getElementById('name').value;
     const email = document.getElementById('email').value;
     const number = document.getElementById('number').value;
@@ -12,7 +12,7 @@ function generatePreview() {
     const achievements = document.getElementById('Achievements').value;
     const linkedIn = document.getElementById('LinkedIn').value;
 
-    // Create a query string to pass to the preview page
+
     const params = new URLSearchParams({
         name: name,
         email: email,
@@ -27,6 +27,6 @@ function generatePreview() {
         linkedIn: linkedIn
     }).toString();
 
-    // Open the preview page with the form data in the URL
+
     window.location.href = `preview.html?${params}`;
 }
