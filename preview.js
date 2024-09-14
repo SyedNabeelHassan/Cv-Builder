@@ -1,7 +1,6 @@
 window.onload = function() {
     const params = new URLSearchParams(window.location.search);
 
-    // Set preview values
     document.getElementById('previewName').textContent = params.get('name');
     document.getElementById('previewEmail').textContent = params.get('email');
     document.getElementById('previewNumber').textContent = params.get('number');
