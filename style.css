@@ -29,7 +29,8 @@ button {
     padding: 10px 20px;
 }
 body {
-    background: linear-gradient(90deg, rgb(171, 167, 236) 0%, rgb(195, 147, 218) 0%, rgb(176, 182, 100) 100%);
+background: linear-gradient(90deg, rgb(233, 235, 245) 0%, rgb(198, 204, 223) 50%, rgb(167, 179, 202) 100%);
+
     display:flexbox;
     justify-content: center;
     align-items: center;
